@@ -11,6 +11,7 @@
 <packaging>pom</packaging>
     <modules>
         <module>service_user</module>
+        <module>service_hosp</module>
     </modules>
     <artifactId>service</artifactId>
     <dependencies>
@@ -46,7 +47,7 @@
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
         </dependency>
-        <!-- 服务调用feign -->
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
